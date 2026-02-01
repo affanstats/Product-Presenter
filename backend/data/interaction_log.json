@@ -1,0 +1,126 @@
+[
+  {
+    "session_id": "91629dee-1d92-4a24-af5d-98ddadd02b51",
+    "product_id": "550e8400-e29b-41d4-a716-446655440003",
+    "product_name": "Velocity Road Master",
+    "user_sentiment": "",
+    "key_questions_asked": [],
+    "conversion_triggered": false,
+    "follow_up_needed": true
+  },
+  {
+    "session_id": "d457dea8-5924-450a-b9ff-c2112f429c09",
+    "product_id": "550e8400-e29b-41d4-a716-446655440002",
+    "product_name": "CargoLine Hauler Pro",
+    "user_sentiment": "",
+    "key_questions_asked": [],
+    "conversion_triggered": false,
+    "follow_up_needed": true
+  },
+  {
+    "session_id": "f859c98a-7ff3-429d-a5bd-903a3eabb776",
+    "product_id": "550e8400-e29b-41d4-a716-446655440004",
+    "product_name": "FatTire Snow Cruiser",
+    "user_sentiment": "",
+    "key_questions_asked": [
+      "What is the price of the FatTire Snow Cruiser?"
+    ],
+    "conversion_triggered": true,
+    "follow_up_needed": false
+  },
+  {
+    "session_id": "93cd3fb7-3918-40b8-98e8-8744822fe987",
+    "product_id": "550e8400-e29b-41d4-a716-446655440002",
+    "product_name": "CargoLine Hauler Pro",
+    "user_sentiment": "",
+    "key_questions_asked": [],
+    "conversion_triggered": false,
+    "follow_up_needed": true
+  },
+  {
+    "session_id": "57f79307-8b68-4fda-a386-394eb71f5117",
+    "product_id": "550e8400-e29b-41d4-a716-446655440000",
+    "product_name": "Summit Explorer 500",
+    "user_sentiment": "",
+    "key_questions_asked": [],
+    "conversion_triggered": false,
+    "follow_up_needed": true
+  },
+  {
+    "session_id": "2c21e77f-ccfa-4fdc-830c-8ce75b3d8c82",
+    "product_id": "550e8400-e29b-41d4-a716-446655440000",
+    "product_name": "Summit Explorer 500",
+    "user_sentiment": "negative",
+    "key_questions_asked": [
+      "What is the pricing and mileage (battery life) of the Summit Explorer 500?",
+      "Is 60 miles of battery life sufficient?"
+    ],
+    "conversion_triggered": true,
+    "follow_up_needed": true
+  },
+  {
+    "session_id": "aba064fe-766f-40a0-a7c7-83c8e67aadd4",
+    "product_id": "550e8400-e29b-41d4-a716-446655440000",
+    "product_name": "Summit Explorer 500",
+    "user_sentiment": "",
+    "key_questions_asked": [],
+    "conversion_triggered": false,
+    "follow_up_needed": true
+  },
+  {
+    "session_id": "240b3377-fff0-4723-9815-f589c8d4892f",
+    "product_id": "550e8400-e29b-41d4-a716-446655440001",
+    "product_name": "UrbanCommute X1",
+    "user_sentiment": "positive",
+    "key_questions_asked": [
+      "engine functionality"
+    ],
+    "conversion_triggered": true,
+    "follow_up_needed": false
+  },
+  {
+    "session_id": "ed2cbbe0-464b-49f4-8f50-84e312b70ad7",
+    "product_id": "550e8400-e29b-41d4-a716-446655440002",
+    "product_name": "CargoLine Hauler Pro",
+    "user_sentiment": "",
+    "key_questions_asked": [],
+    "conversion_triggered": false,
+    "follow_up_needed": true
+  },
+  {
+    "session_id": "f64ea8f6-1ee3-4015-8955-3fed13c3b732",
+    "product_id": "550e8400-e29b-41d4-a716-446655440002",
+    "product_name": "CargoLine Hauler Pro",
+    "user_sentiment": "",
+    "key_questions_asked": [],
+    "conversion_triggered": false,
+    "follow_up_needed": true
+  },
+  {
+    "session_id": "5b1c3b03-195b-4924-a5b0-0c8e5986b396",
+    "product_id": "550e8400-e29b-41d4-a716-446655440005",
+    "product_name": "RetroVolt Classic",
+    "user_sentiment": "",
+    "key_questions_asked": [],
+    "conversion_triggered": false,
+    "follow_up_needed": true
+  },
+  {
+    "session_id": "0f759061-7182-4902-a99e-29f973d74d98",
+    "product_id": "550e8400-e29b-41d4-a716-446655440000",
+    "product_name": "Summit Explorer 500",
+    "user_sentiment": "positive",
+    "key_questions_asked": [],
+    "conversion_triggered": true,
+    "follow_up_needed": false
+  },
+  {
+    "session_id": "e4dc76bb-4ab5-43a9-8fea-d269134524aa",
+    "product_id": "550e8400-e29b-41d4-a716-446655440004",
+    "product_name": "FatTire Snow Cruiser",
+    "user_sentiment": "positive",
+    "key_questions_asked": [],
+    "conversion_triggered": true,
+    "follow_up_needed": false
+  }
+]

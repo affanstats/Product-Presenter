@@ -1,0 +1,149 @@
+﻿[
+  {
+    "productId": "550e8400-e29b-41d4-a716-446655440000",
+    "productName": "Summit Explorer 500",
+    "description": "A rugged all-terrain electric mountain bike designed for steep trails and long off-road adventures. Features a high-torque motor and durable suspension system.",
+    "category": "Electric Mountain Bike",
+    "tags": ["off-road", "mountain", "high-torque", "suspension"],
+    "price": 2499.99,
+    "currency": "USD",
+    "rating": 4.8,
+    "stockStatus": "In Stock",
+    "promotionalMessage": "Conquer any mountain with the Summit Explorer!",
+    "details": {
+      "batteryLife": "60 miles",
+      "chargeTime": "4.5 hours",
+      "motorPower": "750W",
+      "maxSpeed": "28 mph",
+      "weight": "55 lbs",
+      "frameMaterial": "Aluminum Alloy",
+      "transmission": "8-Speed Shimano"
+    }
+  },
+  {
+    "productId": "550e8400-e29b-41d4-a716-446655440001",
+    "productName": "UrbanCommute X1",
+    "description": "Sleek and lightweight city e-bike perfect for daily commuting. Foldable design for easy storage in apartments or offices.",
+    "category": "Electric City Bike",
+    "tags": ["city", "commuter", "foldable", "lightweight"],
+    "price": 1299.99,
+    "currency": "USD",
+    "rating": 4.6,
+    "stockStatus": "In Stock",
+    "promotionalMessage": "The ultimate city companion for your daily ride.",
+    "details": {
+      "batteryLife": "40 miles",
+      "chargeTime": "3 hours",
+      "motorPower": "250W",
+      "maxSpeed": "20 mph",
+      "weight": "38 lbs",
+      "frameMaterial": "Carbon Fiber",
+      "transmission": "Single Speed Belt Drive"
+    }
+  },
+  {
+    "productId": "550e8400-e29b-41d4-a716-446655440002",
+    "productName": "CargoLine Hauler Pro",
+    "description": "Heavy-duty cargo e-bike capable of carrying up to 400 lbs. Ideal for deliveries or family transport with an extended rear rack.",
+    "category": "Electric Cargo Bike",
+    "tags": ["cargo", "heavy-duty", "family", "transport"],
+    "price": 3199.00,
+    "currency": "USD",
+    "rating": 4.9,
+    "stockStatus": "Low Stock",
+    "promotionalMessage": "Carry it all with ease - the heavy-duty hero.",
+    "details": {
+      "batteryLife": "50 miles",
+      "chargeTime": "5 hours",
+      "motorPower": "1000W",
+      "maxSpeed": "20 mph",
+      "weight": "75 lbs",
+      "loadCapacity": "400 lbs",
+      "brakes": "Hydraulic Disc"
+    }
+  },
+  {
+    "productId": "550e8400-e29b-41d4-a716-446655440003",
+    "productName": "Velocity Road Master",
+    "description": "Aerodynamic road e-bike built for speed and endurance on paved surfaces. Integrated smart computer tracks cadence and power output.",
+    "category": "Electric Road Bike",
+    "tags": ["road", "speed", "smart", "endurance"],
+    "price": 2899.50,
+    "currency": "USD",
+    "rating": 4.7,
+    "stockStatus": "In Stock",
+    "promotionalMessage": "Feel the speed. Dominate the road.",
+    "details": {
+      "batteryLife": "75 miles",
+      "chargeTime": "4 hours",
+      "motorPower": "500W",
+      "maxSpeed": "32 mph",
+      "weight": "32 lbs",
+      "connectivity": "Bluetooth/ANT+",
+      "tires": "700c Road Slick"
+    }
+  },
+  {
+    "productId": "550e8400-e29b-41d4-a716-446655440004",
+    "productName": "FatTire Snow Cruiser",
+    "description": "Designed for extreme conditions, this e-bike features extra-wide tires to float over snow and sand. Insulated battery compartment for cold weather performance.",
+    "category": "Fat Tire E-Bike",
+    "tags": ["snow", "sand", "all-season", "fat-tire"],
+    "price": 1899.00,
+    "currency": "USD",
+    "rating": 4.5,
+    "stockStatus": "In Stock",
+    "promotionalMessage": "Snow, sand, or mud - no terrain is off-limits.",
+    "details": {
+      "batteryLife": "35 miles",
+      "chargeTime": "4 hours",
+      "motorPower": "750W",
+      "maxSpeed": "20 mph",
+      "weight": "65 lbs",
+      "tireWidth": "4.8 inches",
+      "waterResistance": "IP67"
+    }
+  },
+  {
+    "productId": "550e8400-e29b-41d4-a716-446655440005",
+    "productName": "RetroVolt Classic",
+    "description": "Vintage-inspired design with modern e-bike technology. Leather accents and chrome finishes meet a powerful rear-hub motor.",
+    "category": "Cruiser E-Bike",
+    "tags": ["vintage", "style", "comfort", "cruiser"],
+    "price": 1599.99,
+    "currency": "USD",
+    "rating": 4.4,
+    "stockStatus": "In Stock",
+    "promotionalMessage": "Timeless style meets modern power.",
+    "details": {
+      "batteryLife": "45 miles",
+      "chargeTime": "4.5 hours",
+      "motorPower": "500W",
+      "maxSpeed": "22 mph",
+      "weight": "50 lbs",
+      "saddle": "Genuine Leather",
+      "lights": "Integrated LED Vintage Style"
+    }
+  },
+  {
+    "productId": "550e8400-e29b-41d4-a716-446655440006",
+    "productName": "TrailBlazer Junior",
+    "description": "A robust e-bike scaled down for younger riders. Speed-limited modes and safety features make it perfect for learning off-road skills.",
+    "category": "Youth E-Bike",
+    "tags": ["kids", "youth", "safety", "learning"],
+    "price": 899.00,
+    "currency": "USD",
+    "rating": 4.8,
+    "stockStatus": "In Stock",
+    "promotionalMessage": "Safe, fun, and built for the next generation of riders.",
+    "details": {
+      "batteryLife": "25 miles",
+      "chargeTime": "2.5 hours",
+      "motorPower": "250W",
+      "maxSpeed": "12 mph (adjustable)",
+      "weight": "30 lbs",
+      "wheelSize": "24 inch",
+      "safetyFeatures": "Remote shut-off, speed governor"
+    }
+  }
+]
