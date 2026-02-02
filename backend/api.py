@@ -8,13 +8,12 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Allows all origins
+    allow_origins=["*"],  
     allow_credentials=True,
-    allow_methods=["*"],  # Allows all methods
-    allow_headers=["*"],  # Allows all headers
+    allow_methods=["*"],  
+    allow_headers=["*"], 
 )
 
-# Define the path to the products.json file
 DATA_FILE = Path(__file__).parent / "data" / "products.json"
 
 @app.get("/product")
@@ -28,7 +27,7 @@ async def get_products():
     with open(DATA_FILE, "r", encoding="utf-8-sig") as f:
         products = json.load(f)
     
-    # Extract only id and name
+
     result = [
         {
             "id": product.get("productId"), 
