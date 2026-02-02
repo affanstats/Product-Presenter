@@ -19,7 +19,7 @@ API_BASE_URL = os.environ.get("API_BASE_URL", "http://localhost:8000")
 server = AgentServer()
 
 async def fetch_product_details(product_id: str):
-    print(f"📡 Fetching product details for ID: {product_id}...")
+    print(f"Fetching product details for ID: {product_id}...")
     try:
         url = f"{API_BASE_URL}/product/{product_id}"
         async with aiohttp.ClientSession() as http_session:
