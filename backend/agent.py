@@ -26,14 +26,14 @@ async def fetch_product_details(product_id: str):
             async with http_session.get(url) as resp:
                 if resp.status == 200:
                     data = await resp.json()
-                    print(f"✅ API Success: {data.get('productName')}")
+                    print(f"API Success: {data.get('productName')}")
                     return data
                 else:
-                    print(f"❌ API Error: Status {resp.status} for URL {url}")
+                    print(f"API Error: Status {resp.status} for URL {url}")
                     text = await resp.text()
-                    print(f"❌ API Response: {text}")
+                    print(f"API Response: {text}")
     except Exception as e:
-        print(f"❌ Exception in fetch_product_details: {e}")
+        print(f"Exception in fetch_product_details: {e}")
     return None
 
 @server.rtc_session()
@@ -77,9 +77,9 @@ async def my_agent(ctx: agents.JobContext):
                 if p_id:
                     info = await fetch_product_details(p_id)
                     if info:
-                        print(f"✅ Fetched product info: {info.get('productName')}")
+                        print(f"Fetched product info: {info.get('productName')}")
                         fetched_product_info = info
-                        # Update logger
+                      
                         interaction_logger.update_product_info(
                             product_id=info.get("productId"),
                             product_name=info.get("productName")
@@ -93,30 +93,30 @@ async def my_agent(ctx: agents.JobContext):
         asyncio.create_task(handle_participant_connected(participant))
 
     def on_participant_metadata_changed(participant: rtc.RemoteParticipant, *args):
-        # We can reuse the handler logic, technically re-fetching if metadata changes
+     
         asyncio.create_task(handle_participant_connected(participant))
 
     def on_room_disconnected():
-        print("🔌 Room disconnected")
+        print("Room disconnected")
         session_done.set()
 
     ctx.room.on("participant_connected", on_participant_connected)
     ctx.room.on("participant_metadata_changed", on_participant_metadata_changed)
     ctx.room.on("disconnected", on_room_disconnected)
 
-    print(f"🔌 Connecting to room to fetch metadata...")
+    print(f"Connecting to room to fetch metadata...")
     await ctx.connect(auto_subscribe=agents.AutoSubscribe.SUBSCRIBE_ALL)
-    print(f"✅ Connected to room: {ctx.room.name}")
+    print(f"Connected to room: {ctx.room.name}")
 
     # Check existing participants and wait for data fetch
-    print(f"👥 Checking {len(ctx.room.remote_participants)} existing participants")
+    print(f"Checking {len(ctx.room.remote_participants)} existing participants")
     for participant in ctx.room.remote_participants.values():
         await handle_participant_connected(participant)
 
     try: 
         additional_context = ""
         
-        # Inject user context
+
         if fetched_user_name or fetched_user_email:
             additional_context += "\n\nCURRENT USER CONTEXT:\n"
             if fetched_user_name:
@@ -124,7 +124,7 @@ async def my_agent(ctx: agents.JobContext):
             if fetched_user_email:
                 additional_context += f"Email: {fetched_user_email}\n"
 
-        # Inject product context into the agent's instructions if available
+        
         if fetched_product_info:
             additional_context += (
                 f"\n\nCURRENT PRODUCT CONTEXT:\n"
